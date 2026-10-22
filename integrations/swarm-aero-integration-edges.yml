@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/swarm-aero/integrations
+- https://n8n.io/integrations/swarm-aero/
+- https://composio.dev/toolkits/swarm-aero
+- https://monid.ai/tools/swarm-aero
+checked:
+- https://composio.dev/toolkits/swarm-aero
+- https://monid.ai/tools/swarm-aero
+- https://n8n.io/integrations/swarm-aero/
+- https://zapier.com/apps/swarm-aero/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

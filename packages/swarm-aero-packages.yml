@@ -1,0 +1,9 @@
+generated: '2026-10-22'
+method: none
+source: https://registry.npmjs.org/-/v1/search?text=swarm-aero&size=5
+packages: []
+rejected:
+- name: swarm-js
+  registry: npm
+  reason: 'registry metadata names neither the provider''s domain nor its GitHub org: official downgraded (harvest-packages.py --audit)'
+note: 'no first-party package: every candidate a model listed was unowned (harvest-packages.py --audit)'

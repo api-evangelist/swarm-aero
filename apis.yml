@@ -1,25 +1,70 @@
 aid: swarm-aero
+
 name: Swarm Aero
+
+image: https://cdn.prod.website-files.com/6670a5ab5768bd53190746a5/66ab002fe2d654e95199f8d6_image-globe.png
+
 description: 'Swarm Aero is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
   backed by coatue) and added to the network as a stub for full-pipeline profiling.'
+
 url: https://raw.githubusercontent.com/api-evangelist/swarm-aero/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
-- Company
-apis: []
+- Long‑Range Strike
+- Defense
+- C2 Autonomy
+- Modular Payload
+- Mass Production
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- coatue
+
 common:
+- type: Hosts
+  url: hosts/swarm-aero-hosts.yml
+- type: Vendors
+  url: vendors/swarm-aero-vendors.yml
+- type: PrivacyPolicy
+  url: https://www.swarm.aero/privacy-policy
+- type: Newsroom
+  url: https://www.swarm.aero/news
+- type: DomainSecurity
+  url: security/swarm-aero-domain-security.yml
 - type: Website
   url: https://www.swarm.aero/
+
+apis: []
+
+x-backed-by:
+- coatue
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No machine‑readable API specification found on the website.
+  evidence:
+    - url: https://www.swarm.aero/
+      status: 200
+  checked: '2026-10-22'
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
